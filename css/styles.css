@@ -1,0 +1,125 @@
+
+/* Tag Selector */
+body{
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400;
+  background-color: hsl(204, 43%, 93%);
+}
+
+
+h3{
+  color: hsl(179, 52%, 59%);
+  font-weight: 700;
+}
+
+h5{
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+
+/* Class Selectors */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.about-us{
+  background-color: hsl(179, 52%, 59%);
+  padding: 6% 10% 5% 6%;
+  border-bottom-right-radius: 15px;
+}
+
+.adv-header{
+  padding: 30px 0;
+}
+
+.main-advertisement{
+  padding: 2% 7% 0;
+  color: hsl(218, 22%, 67%);
+  background-color: #fff;
+  border-top-left-radius:15px;
+  border-top-right-radius: 15px;
+  line-height: 1;
+}
+
+
+
+.main-container{
+  color: hsl(204, 43%, 93%);
+  padding: 6% 23%;
+}
+
+.money-back{
+  color:hsl(71, 73%, 54%);
+}
+
+.price{
+  color: hsl(179, 52%, 59%);
+}
+
+.price span{
+  font-size: 2rem;
+  color: hsl(204, 43%, 93%);
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.row{
+  height: 300px;
+}
+
+.signup-button{
+  background-color:hsl(71, 73%, 54%);
+  border-style: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+}
+
+.signup-button:hover{
+  background-color: hsl(71, 73%, 74%);
+  color: hsl(218, 22%, 67%)
+}
+
+.subscription{
+  background-color: hsl(179, 62%, 43%);
+  padding: 6% 6% 6% 7%;
+  border-bottom-left-radius: 15px;
+}
+
+/* Phone View changes */
+
+@media (max-width: 375px) {
+
+  footer{
+    padding-top: 250px;
+  }
+
+  .main-container{
+    padding: 10%;
+    margin: 0;
+  }
+
+  .main-advertisement{
+    padding: 5% 7%%;
+    line-height: 1.5;
+  }
+
+  .adv-header{
+    padding:10px 0;
+  }
+
+  .subscription{
+    padding: 7% 8% 7% 8%;
+    border-bottom-left-radius: 0;
+  }
+
+  .about-us{
+    border-bottom-left-radius: 15px;
+    padding: 7% 12% 5% 7%;
+  }
+}
